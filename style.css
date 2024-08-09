@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  background-color: #222;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  padding-bottom: 50px;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 770px;
+  background-color: #fff;
+  margin: 0px auto 0px;
+  padding: 40px;
+  box-shadow: 1px 1px 2px #dad707;
+  border-radius: 4px;
+  margin-top: 50px;
+}
+
+.header {
+  margin-bottom: 30px;
+}
+
+.header .full-name {
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.header .full-name .first {
+  color: slateblue;
+  font-weight: 700;
+}
+
+.header .full-name .last {
+  font-weight: 300;
+}
+
+.header .email,
+.header .phone {
+  color: #999;
+  font-weight: 300;
+}
+
+.header .seperator {
+  height: 13px;
+  display: inline-block;
+  border-left: 2px solid #999;
+  margin: 0px 10px;
+}
+
+.header .about .position {
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 10px;
+  text-decoration: underline;
+  color: slateblue;
+}
+
+.header .about .desc {
+  text-align: justify;
+  word-break: break-all;
+  text-indent: 100px;
+}
+
+/* details */
+.details {
+  line-height: 20px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.details .card {
+  margin-bottom: 40px;
+}
+
+.details .card:last-of-type {
+  margin-bottom: 0px;
+}
+
+.details .card .card-title {
+  font-size: 1rem; /* 1em/1rem = 16px */
+  color: slateblue;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.card .list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0px 50px 0px 50px;
+}
+
+.list .list-item {
+  margin-bottom: 40px;
+}
+
+.list .list-item:last-of-type {
+  margin-bottom: 0;
+}
+
+.list-item .left,
+.list-item .right {
+  vertical-align: top;
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.degree {
+  font-weight: bold;
+}
+
+.list-item .title {
+  font-style: italic;
+  color: #888;
+}
+
+.list-item.skill-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.list-item .profile-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.profile-links a {
+  text-decoration: none;
+  border: none;
+  background-color: slateblue;
+  padding: 10px 12px;
+  width: 140px;
+  text-align: center;
+  color: #fff;
+  font-size: 1.1em;
+}
+
+.profile-links a:hover {
+  background-color: #222;
+  color: #fff;
+}
